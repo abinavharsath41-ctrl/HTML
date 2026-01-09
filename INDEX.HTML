@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel & Tourism</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center/cover;
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3em;
+        }
+
+        nav {
+            background: #333;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffd700;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1100px;
+            margin: auto;
+            background: #fff;
+            margin-bottom: 20px;
+        }
+
+        .destinations {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #fafafa;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            margin: 10px;
+        }
+
+        .card p {
+            margin: 10px;
+            font-size: 0.9em;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Explore the World</h1>
+    <p>Your guide to unforgettable travel experiences</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#destinations">Destinations</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+        Welcome to our Travel & Tourism website. We provide reliable information
+        about popular tourist destinations, travel tips, and cultural experiences
+        to help you plan the perfect trip.
+    </p>
+</section>
+
+<section id="destinations">
+    <h2>Popular Destinations</h2>
+    <div class="destinations">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1548013146-72479768bada" alt="Paris">
+            <h3>Paris, France</h3>
+            <p>The city of love, art, and fashion. Famous for the Eiffel Tower.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1" alt="Maldives">
+            <h3>Maldives</h3>
+            <p>Crystal-clear waters, white sand beaches, and luxury resorts.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1526481280691-3c4b8c06b6c9" alt="New York">
+            <h3>New York, USA</h3>
+            <p>The city that never sleeps, full of iconic landmarks.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: travelinfo@example.com</p>
+    <p>Phone: +1 234 567 890</p>
+</section>
+
+<footer>
+    <p>&copy; 2026 Travel & Tourism Information Website</p>
+</footer>
+
+</body>
+</html>
